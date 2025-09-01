@@ -601,7 +601,7 @@ public class ChessGame {
                 return 1;
             }
         } else if (colour == Colour.BLACK && pawnPromoting instanceof Pawn && pawnPromoting.getColour() == Colour.BLACK
-                && (move.getDestination().getRow() >= 4 && move.getDestination().getRow() <= 7)
+                && (move.getDestination().getRow() >= 3 && move.getDestination().getRow() <= 6)
                 && pawnPromoting.getPossibleMoves(move.getSource(), board)
                         .contains(new Move(move.getSource(), new Position(7, move.getDestination().getCol())))) {
             Move promotionMove = new Move(move.getSource(), new Position(7, move.getDestination().getCol()));
@@ -610,16 +610,16 @@ public class ChessGame {
             Piece lastSourcePiece = board.getSourcePiece();
             Piece lastDestinationPiece = board.getDestinationPiece();
             switch (move.getDestination().getRow()) {
-                case 7:
+                case 6:
                     board.pawnPromotion(promotionMove, new Bishop(Colour.BLACK));
                     break;
-                case 6:
+                case 5:
                     board.pawnPromotion(promotionMove, new Knight(Colour.BLACK));
                     break;
-                case 5:
+                case 4:
                     board.pawnPromotion(promotionMove, new Rook(Colour.BLACK));
                     break;
-                case 4:
+                case 3:
                     board.pawnPromotion(promotionMove, new Queen(Colour.BLACK));
                     break;
             }
