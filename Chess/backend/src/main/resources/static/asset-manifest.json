@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0eb55fb.css",
+    "main.js": "/static/js/main.633d1251.js",
+    "static/js/885.fce5d3a6.chunk.js": "/static/js/885.fce5d3a6.chunk.js",
+    "static/js/453.c447a623.chunk.js": "/static/js/453.c447a623.chunk.js",
+    "static/media/piece-capture.mp3": "/static/media/piece-capture.0a8bcd3f1d562f25842f.mp3",
+    "static/media/game-reset.mp3": "/static/media/game-reset.1007e31f4f2760e3fc4d.mp3",
+    "static/media/player-castle.mp3": "/static/media/player-castle.22139ec561382a2e257f.mp3",
+    "static/media/give-check.mp3": "/static/media/give-check.4f8ee75f5d2ecc28e7de.mp3",
+    "static/media/move-piece.mp3": "/static/media/move-piece.141a67dad802d0b7748a.mp3",
+    "index.html": "/index.html",
+    "main.e0eb55fb.css.map": "/static/css/main.e0eb55fb.css.map",
+    "main.633d1251.js.map": "/static/js/main.633d1251.js.map",
+    "885.fce5d3a6.chunk.js.map": "/static/js/885.fce5d3a6.chunk.js.map",
+    "453.c447a623.chunk.js.map": "/static/js/453.c447a623.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0eb55fb.css",
+    "static/js/main.633d1251.js"
+  ]
+}
